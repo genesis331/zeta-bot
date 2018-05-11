@@ -1,0 +1,24 @@
+{
+    "help" : [
+        {
+            "command" : "help",
+            "name" : "Show the Help Menu."
+        },
+        {
+            "command" : "feedlist",
+            "name" : "Show list of feeds."
+        },
+        {
+            "command" : "contact <your message>",
+            "name" : "Report bugs/errors or give suggestions."
+        },
+        {
+            "command" : "about",
+            "name" : "Know more about Zeta."
+        },
+        {
+            "command" : "contribute",
+            "name" : "Contribute to Zeta development."
+        }
+    ]
+}

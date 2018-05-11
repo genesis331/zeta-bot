@@ -1,0 +1,218 @@
+{
+    "feedsx": [
+        {
+            "feed" : ["android","apple"],
+            "feedname" : "Phones",
+            "feedcmd" : "phones",
+            "feedlist" : [{
+                "codename" : "android",
+                "name" : "Android",
+                "listfeed" : [
+                    {
+                        "url" : "https://www.androidpit.com/feed/main.xml",
+                        "name" : "Android Pit",
+                        "site" : "androidpit.com"
+                    },
+                    {
+                        "url" : "https://androidcommunity.com/feed/",
+                        "name" : "Android Community",
+                        "site" : "androidcommunity.com"
+                    },
+                    {
+                        "url" : "https://www.androidheadlines.com/feed",
+                        "name" : "Android Headlines",
+                        "site" : "androidheadlines.com"
+                    },
+                    {
+                        "url" : "https://www.androidauthority.com/feed/",
+                        "name" : "Android Authority",
+                        "site" : "androidauthority.com"
+                    }
+                ]
+            },
+            {
+                "codename" : "apple",
+                "name" : "Apple",
+                "listfeed" : [
+                    {
+                        "url" : "http://www.iphonehacks.com/feed",
+                        "name" : "iPhone Hacks",
+                        "site" : "iphonehacks.com"
+                    },
+                    {
+                        "url" : "https://www.macworld.co.uk/latest/iphone/rss",
+                        "name" : "MacWorld",
+                        "site" : "macworld.co.uk"
+                    },
+                    {
+                        "url" : "https://www.cultofmac.com/feed/",
+                        "name" : "Cult of Mac",
+                        "site" : "cultofmac.com"
+                    }
+                ]
+            }]
+        },
+        {
+            "feed" : ["gadgets"],
+            "feedname" : "Gadgets",
+            "feedcmd" : "gadgets",
+            "feedlist" : [{
+                "codename" : "gadgets",
+                "name" : "Gadgets",
+                "listfeed" : [
+                    {
+                        "url" : "https://www.wired.com/feed/category/gear/latest/rss",
+                        "name" : "WIRED",
+                        "site" : "wired.com"
+                    },
+                    {
+                        "url" : "http://feeds.feedburner.com/thegadgetflow?format=xml",
+                        "name" : "The Gadget Flow",
+                        "site" : "thegadgetflow.com"
+                    },
+                    {
+                        "url" : "https://www.pocket-lint.com/rss/gadgets/all.xml",
+                        "name" : "Pocket-lint",
+                        "site" : "pocket-lint.com"
+                    }
+                ]
+            }]
+        },
+        {
+            "feed" : ["windows","mac","linux"],
+            "feedname" : "Computers",
+            "feedcmd" : "comp",
+            "feedlist" : [{
+                "codename" : "windows",
+                "name" : "Windows",
+                "listfeed" : [
+                    {
+                        "url" : "https://mspoweruser.com/feed/",
+                        "name" : "MS Power User",
+                        "site" : "mspoweruser.com"
+                    },
+                    {
+                        "url" : "http://feeds.windowscentral.com/wmexperts?format=xml",
+                        "name" : "Windows Central",
+                        "site" : "windowscentral.com"
+                    },
+                    {
+                        "url" : "http://feeds.feedburner.com/TheWindowsClub?format=xml",
+                        "name" : "The Windows Club",
+                        "site" : "thewindowsclub.com"
+                    }
+                ]
+            },
+            {
+                "codename" : "mac",
+                "name" : "Mac",
+                "listfeed" : [
+                    {
+                        "url" : "https://www.macworld.co.uk/latest/mac/rss",
+                        "name" : "MacWorld",
+                        "site" : "macworld.co.uk"
+                    },
+                    {
+                        "url" : "http://feeds.feedburner.com/osxdaily?format=xml",
+                        "name" : "OS X Daily",
+                        "site" : "osxdaily.com"
+                    }
+                ]
+            },
+            {
+                "codename" : "linux",
+                "name" : "Linux",
+                "listfeed" : [
+                    {
+                        "url" : "https://www.linuxinsider.com/perl/syndication/rssfull.pl",
+                        "name" : "Linux Insider",
+                        "site" : "linuxinsider.com"
+                    },
+                    {
+                        "url" : "https://feeds.feedburner.com/linuxtoday/linux?format=xml",
+                        "name" : "Linux Today",
+                        "site" : "linuxtoday.com"
+                    }
+                ]
+            }]
+        },
+        {
+            "feed" : ["tech"],
+            "feedname" : "Technology",
+            "feedcmd" : "tech",
+            "feedlist" : [{
+                "codename" : "tech",
+                "name" : "Technology",
+                "listfeed" : [
+                    {
+                        "url" : "https://www.technologyreview.com/topnews.rss",
+                        "name" : "MIT Technology Review",
+                        "site" : "technologyreview.com"
+                    },
+                    {
+                        "url" : "https://www.engadget.com/rss.xml",
+                        "name" : "Engadget",
+                        "site" : "engadget.com"
+                    },
+                    {
+                        "url" : "https://gizmodo.com/rss",
+                        "name" : "Gizmodo",
+                        "site" : "gizmodo.com"
+                    }
+                ]
+            }]
+        },
+        {
+            "feed" : ["science"],
+            "feedname" : "Science",
+            "feedcmd" : "science",
+            "feedlist" : [{
+                "codename" : "science",
+                "name" : "Science",
+                "listfeed" : [
+                    {
+                        "url" : "http://www.sciencemag.org/rss/news_current.xml",
+                        "name" : "Science Mag",
+                        "site" : "sciencemag.org"
+                    },
+                    {
+                        "url" : "https://www.sciencedaily.com/rss/top/science.xml",
+                        "name" : "Science Daily",
+                        "site" : "sciencedaily.com"
+                    },
+                    {
+                        "url" : "https://www.sciencenews.org/feeds/headlines.rss",
+                        "name" : "Science News",
+                        "site" : "sciencenews.org"
+                    },
+                    {
+                        "url" : "https://www.wired.com/feed/category/science/latest/rss",
+                        "name" : "WIRED",
+                        "site" : "wired.com"
+                    }
+                ]
+            }]
+        },
+        {
+            "feed" : ["design"],
+            "feedname" : "Design",
+            "feedcmd" : "design",
+            "feedlist" : [{
+                "codename" : "design",
+                "name" : "Design",
+                "listfeed" : [
+                    {
+                        "url" : "https://inkbotdesign.com/feed/",
+                        "name" : "Inkbot Design",
+                        "site" : "inkbotdesign.com"
+                    },
+                    {
+                        "url" : "https://www.designernews.co/?format=rss",
+                        "name" : "Designer News",
+                        "site" : "designernews.co"
+                    }
+                ]
+            }]
+        }
+    ]
+}

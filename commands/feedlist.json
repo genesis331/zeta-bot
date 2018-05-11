@@ -1,0 +1,28 @@
+{
+    "categories" : [
+        {
+            "command" : "phones",
+            "name" : "phones"
+        },
+        {
+            "command" : "gadgets",
+            "name" : "gadgets"
+        },
+        {
+            "command" : "comp",
+            "name" : "computers"
+        },
+        {
+            "command" : "tech",
+            "name" : "technology"
+        },
+        {
+            "command" : "science",
+            "name" : "science"
+        },
+        {
+            "command" : "design",
+            "name" : "designing"
+        }
+    ]
+}

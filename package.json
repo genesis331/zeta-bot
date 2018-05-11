@@ -1,0 +1,16 @@
+{
+  "name": "zeta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test" : "node test.js"
+  },
+  "author": "genesis331",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "xml2js": "^0.4.19",
+    "xmlhttprequest": "^1.8.0"
+  }
+}

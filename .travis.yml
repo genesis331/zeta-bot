@@ -1,0 +1,18 @@
+language: node_js
+node_js:
+  - 9
+env:
+  - BOT_TOKEN=$BOT_TOKEN
+cache:
+  directories:
+    - node_modules
+install: npm install
+script: npm test
+jobs:
+  - stage: deploy
+    deploy:
+      provider: heroku
+      api_key: $KEY
+      app: zeta-bot
+dist: trusty
+sudo: required
