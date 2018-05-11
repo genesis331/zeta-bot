@@ -7,7 +7,7 @@ const prefix = start.config("prefix");
 const current_version = start.version();
 
 bot.on('ready', (message) => {
-    console.log(`Zeta ${current_version}`);
+    console.log(`Zeta ${current_version} Test`);
     process.exit();
 });
 
