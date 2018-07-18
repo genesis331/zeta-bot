@@ -1,6 +1,6 @@
 const { help } = require('./help.json');
 const Discord = require('discord.js');
-const embed = new Discord.RichEmbed();
+var embed = new Discord.RichEmbed();
 
 function generate() {
     embed.setTitle("Help Menu");
