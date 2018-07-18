@@ -19,5 +19,6 @@ module.exports = class help {
         generate();
         message.channel.send("Hi "+ message.author + ", here is the Help Menu!");
         message.channel.send({embed});
+        embed = new Discord.RichEmbed();
     }
 }
